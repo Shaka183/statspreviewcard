@@ -1,0 +1,83 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: var(--Very-blue-main);
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: var(--Dark-desaturated-blue-card);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .painel {
+    padding: 40px;
+    max-width: 450px;
+    position: relative;
+    
+}
+
+.container .painel h1 {
+    font-weight: 700;
+    font-size:35px;
+}
+
+.container .painel .text {
+    color: var(--Slightly-white-main-paragraph);
+    margin: 30px 0 70px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container .painel h1 .curto {
+    color: var(--Soft-violet);
+}
+
+.container img {
+    width: 450px;
+    height: 100%;
+    background-color: var(--Soft-violet);    
+}
+
+.container .fundo {
+    background-color: var(--Soft-violet);
+    height: 376px;
+    width: 33.1%;
+    position: absolute;
+    opacity: 0.3;
+    border-radius: 10px; ;
+}
+
+.container .painel .resultados {
+    display: flex;
+    gap: 50px;
+    margin-top: auto;
+}
+
+.container .painel .resultados .valores {
+    font-weight: 700; 
+    font-size: 17px;
+}
+
+.container .painel .resultados p {
+    font-weight: 400;
+    font-family:'Lexend Deca', sans-serif;
+    color: var(--Slightly-white-main-paragraph);
+}
+
+
+
+
+
+
+
+
